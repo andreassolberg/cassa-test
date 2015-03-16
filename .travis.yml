@@ -10,9 +10,7 @@ before_install:
 install:
 - composer install
 before_script:
-- cqlsh 127.0.0.1 -f etc/bootstrap.init-keyspace-ci.sql
-- cqlsh 127.0.0.1 -f etc/bootstrap.sql
-- cqlsh 127.0.0.1 -f etc/ci/testdata.sql
+- cqlsh 127.0.0.1 -f bootstrap.cql
 script:
 - evseevnn.php
 - duoshuo-stream.php
