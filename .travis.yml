@@ -14,7 +14,9 @@ before_script:
 script:
 - bin/evseevnn.php
 - bin/duoshuo-stream.php
+- bin/duoshuo-stream-persistent.php
 - bin/duoshuo-socket.php
+
 
 
 
