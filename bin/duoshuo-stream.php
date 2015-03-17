@@ -8,7 +8,7 @@ use FeideConnect\Data\StorageProvider;
 require(dirname(dirname(__FILE__)) . '/vendor/autoload.php');
 
 
-$keyspace = 'feideconnct';
+$keyspace = 'feideconnect';
 $nodes = [[ 
 	'host'   		 => '127.0.0.1',
     // 'port'   		 => 9042,
